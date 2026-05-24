@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import profileImage from '@/public/profile.jpg';
 
 const coreHighlights = [
   '7 years of software engineering experience across backend, data, mobile, and full-stack delivery.',
@@ -131,7 +132,7 @@ export default function Home() {
 
         <div className="hero-image-wrap">
           <Image
-            src="/profile.jpg"
+            src={profileImage}
             alt="Adhika Gunadarma"
             width={320}
             height={320}
