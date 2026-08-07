@@ -24,3 +24,5 @@ DEPLOY_TARGET=gh-pages npm run build
 ```
 
 The exported static site will be generated in `out/`.
+
+All of that :)
